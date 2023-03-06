@@ -1,0 +1,334 @@
+.header
+{
+    background : linear-gradient(-180deg,#f53d2d,#f63);
+    position: fixed;
+    height: 126px;
+    width : 100%;
+    color: white;
+    padding-top: 10px;
+
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+
+  
+
+     
+
+  
+.container
+{
+    max-width: 1200px;
+    padding: 0;
+
+}
+
+.navbar
+{
+    padding : 0;
+}
+.icon_picture
+{
+    width : 16px;
+    height: 16px;
+
+}
+
+.icon_picture_search
+{
+    width : 16px;
+    height: 16px;
+    margin-top: -2px;
+
+}
+
+.Sales-p
+{
+    color: black;
+
+
+}
+
+.hr1
+{
+    width : 1px;
+    height : 13px;
+    background-color: rgba(255, 255, 255, 0.364);
+    visibility: visible;
+}
+
+.wrap-search
+{
+    position: relative;
+    width: 850px;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 25px;
+    
+
+}
+
+.wrap-navbar-input
+{
+    margin-left: -100px;
+}
+.wrap-icon-s
+{
+    position:absolute;
+    background : linear-gradient(-180deg,#f53d2d,#f63);
+    border-radius: 2px;
+    width: 65px;
+    height: 87%;
+    right: 3px;
+    top: 50%;
+    bottom: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.brand-image
+{
+    width: 45px;
+    height: 50px;
+    margin-right: 2px;
+}
+
+.brand-text
+{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   height: 50px;
+   margin-top: 15px;
+   
+    
+
+}
+
+.form-control
+{
+    position : absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    border : none;
+    background-color: transparent;
+}
+
+.form-control:focus
+{
+    box-shadow: none;
+    border-radius: 2px;
+
+
+}
+
+.backgroundBanner
+
+{
+    position:relative;
+    background-color: rgb(128, 128, 128, 0.1);
+    height: 1000px;
+    
+}
+
+
+
+.container_shop
+{
+    padding-left: 10px;
+}
+
+.icon_shop
+{
+    
+    width: 26px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: -80px;
+    margin-top : 20px;
+}
+
+.under-input span{
+    
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 4px;
+}
+
+/*carousel*/
+
+.wrap-carousel
+{
+    height : 250px;
+    position: relative;
+    padding-top: 29.5px;
+    top: 125px;
+}
+
+.carousel-indicators li
+{
+    border: 0;
+    border-radius:20px;
+    width: 8px;
+    height: 8px;
+    
+}
+
+.carousel-control-prev
+{
+    top: -1px;
+    margin-left: -45px;
+}
+
+.carousel-control-next
+{
+    top: -1px;
+    margin-right: -45px;
+}
+
+.wrap-img
+{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 0.01px solid rgba(169, 169, 175, 0.1) ;
+    padding: 0.1px;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.container-Sales-Type
+{
+    justify-content: space-evenly;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 26.2px;
+    font-size: 13px;
+
+}
+
+.wrap-img img
+{
+    
+    width: 100%;
+    height:100%;
+    
+    
+}
+
+.Sales-Type
+{
+   padding: 20PX;
+   background-color: #FFF;
+   margin-top: 130px;
+}
+
+/*cATEGORY*/
+
+h5
+{
+    color:rgb(101, 106, 110);
+    justify-content: left;
+    margin-top: -5px;
+    font-size:16px;
+    height: 40px;
+}
+.Below
+{
+    margin-top: 70px;
+}
+
+.Category
+{
+    display: flex;
+    flex-direction:column;
+    background-color:white;
+    border: 1px solid rgba(169, 169, 175, 0.1);
+ 
+
+}
+
+
+   
+        
+    
+
+
+
+.wrap-img2
+{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color:white;
+    justify-content: center;
+}
+.container-category
+{
+    padding:10px 5px;
+    width: 10%;
+    height:160px;
+    
+    background-color: white;
+    
+}
+
+.container-category .wrap-img2
+{
+    width:60px;
+    height:60px;
+    background-color:white ;
+    border-radius:20px;
+    border:none;
+
+}
+
+.container-category .wrap-img2 img
+{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border-radius: 8px;
+    
+
+}
+
+.container-category:hover
+{
+   
+  transform: scale(1.1);
+  opacity:1;
+}
+
+
+.img_shocking
+{
+    width: 139px;
+    margin-left:15px;
+    margin-top: 12px;
+    height: 30px;
+
+}
+
+
